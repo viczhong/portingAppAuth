@@ -10,7 +10,6 @@
 		6BDF69B05A6EC2A6275874EF /* Pods_weLearnOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108A165236C56324C9568718 /* Pods_weLearnOAuth.framework */; };
 		9C2548091E661F8D003BACAD /* GTMAppAuthExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2548081E661F8D003BACAD /* GTMAppAuthExampleViewController.swift */; };
 		9C3FE0381E66163F00ACC778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3FE0371E66163F00ACC778 /* AppDelegate.swift */; };
-		9C3FE03A1E66163F00ACC778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3FE0391E66163F00ACC778 /* ViewController.swift */; };
 		9C3FE03D1E66164000ACC778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FE03B1E66164000ACC778 /* Main.storyboard */; };
 		9C3FE03F1E66164000ACC778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FE03E1E66164000ACC778 /* Assets.xcassets */; };
 		9C3FE0421E66164000ACC778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FE0401E66164000ACC778 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 		9C2548081E661F8D003BACAD /* GTMAppAuthExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTMAppAuthExampleViewController.swift; sourceTree = "<group>"; };
 		9C3FE0341E66163F00ACC778 /* weLearnOAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weLearnOAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3FE0371E66163F00ACC778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C3FE0391E66163F00ACC778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C3FE03C1E66164000ACC778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C3FE03E1E66164000ACC778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3FE0411E66164000ACC778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				9C3FE0371E66163F00ACC778 /* AppDelegate.swift */,
-				9C3FE0391E66163F00ACC778 /* ViewController.swift */,
 				9C2548081E661F8D003BACAD /* GTMAppAuthExampleViewController.swift */,
 				9C3FE03B1E66164000ACC778 /* Main.storyboard */,
 				9C3FE03E1E66164000ACC778 /* Assets.xcassets */,
@@ -215,7 +212,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C2548091E661F8D003BACAD /* GTMAppAuthExampleViewController.swift in Sources */,
-				9C3FE03A1E66163F00ACC778 /* ViewController.swift in Sources */,
 				9C3FE0381E66163F00ACC778 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
