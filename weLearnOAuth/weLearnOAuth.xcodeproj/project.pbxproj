@@ -13,6 +13,7 @@
 		9C3FE03D1E66164000ACC778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FE03B1E66164000ACC778 /* Main.storyboard */; };
 		9C3FE03F1E66164000ACC778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FE03E1E66164000ACC778 /* Assets.xcassets */; };
 		9C3FE0421E66164000ACC778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FE0401E66164000ACC778 /* LaunchScreen.storyboard */; };
+		9CFB21021E6A202E0059EB98 /* GoogleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB21011E6A202E0059EB98 /* GoogleSignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9C3FE03E1E66164000ACC778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3FE0411E66164000ACC778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3FE0431E66164000ACC778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFB21011E6A202E0059EB98 /* GoogleSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				9C3FE0371E66163F00ACC778 /* AppDelegate.swift */,
 				9C2548081E661F8D003BACAD /* GTMAppAuthExampleViewController.swift */,
+				9CFB21011E6A202E0059EB98 /* GoogleSignInViewController.swift */,
 				9C3FE03B1E66164000ACC778 /* Main.storyboard */,
 				9C3FE03E1E66164000ACC778 /* Assets.xcassets */,
 				9C3FE0401E66164000ACC778 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFB21021E6A202E0059EB98 /* GoogleSignInViewController.swift in Sources */,
 				9C2548091E661F8D003BACAD /* GTMAppAuthExampleViewController.swift in Sources */,
 				9C3FE0381E66163F00ACC778 /* AppDelegate.swift in Sources */,
 			);

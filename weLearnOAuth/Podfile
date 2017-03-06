@@ -6,7 +6,11 @@ target 'weLearnOAuth' do
   use_frameworks!
 
   # Pods for weLearnOAuth
-  pod 'GTMAppAuth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'SnapKit'
+  pod 'GoogleSignIn'
+
 end
 
 
